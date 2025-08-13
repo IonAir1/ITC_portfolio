@@ -5,12 +5,19 @@
             <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class="section-page">
-        <h1 class="page-title">My Resume</h1>
-        <div class="header-buttons">
-            <button onclick="window.location.href='index.html'">Back to Home</button>
-            <a href="assets/resume.pdf" download class="button-link">Download PDF</a>
+    <body>
+        <header class="nav-header">
+            <h1 class="nav-title">Portfolio</h1>
+            <button class="home-btn" onclick="window.location.href='index.html'">Home</button>
+        </header>
+
+        <div class="section-page" id="resume-page">
+
+            <h1 class="page-title">My Resume</h1>
+            <div class="header-buttons">
+                <a href="assets/resume.pdf" download class="button-link">Download PDF</a>
+            </div>
+            <img src="assets/resume.png" alt="Resume Image" class="resume-img">
         </div>
-        <img src="assets/resume.png" alt="Resume Image" class="resume-img">
     </body>
 </html>

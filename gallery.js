@@ -6,6 +6,12 @@ document.querySelectorAll('.gallery-img').forEach(img => {
         modalImg.src = this.src;
     }
 });
+document.querySelectorAll('.info-image').forEach(img => {
+    img.onclick = function() {
+        modal.classList.add('show');
+        modalImg.src = this.src;
+    }
+});
 modal.onclick = function() {
     modal.classList.remove('show');
     modalImg.src = '';
