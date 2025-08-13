@@ -1,0 +1,12 @@
+const modal = document.getElementById('img-modal');
+const modalImg = document.getElementById('modal-img');
+document.querySelectorAll('.gallery-img').forEach(img => {
+    img.onclick = function() {
+        modal.classList.add('show');
+        modalImg.src = this.src;
+    }
+});
+modal.onclick = function() {
+    modal.classList.remove('show');
+    modalImg.src = '';
+};
