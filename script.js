@@ -16,3 +16,11 @@ modal.onclick = function() {
     modal.classList.remove('show');
     modalImg.src = '';
 };
+
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    alert("Copied: " + text);
+  }).catch(err => {
+    console.error("Failed to copy: ", err);
+  });
+}

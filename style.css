@@ -5,6 +5,8 @@ body {
     min-height: 100vh;
     background-color: #1f1f1f;
     color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -58,6 +60,7 @@ button:hover {
 }
 
 .section-page {
+    flex: 1;
     margin: 0;
 }
 
@@ -305,4 +308,33 @@ button:hover {
 #second-section .info-text p,
 #second-section .info-text li {
     color: #ffffff; /* paragraph and bullet items */
+}
+
+.site-footer {
+  background-color: #0e0e0e;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.footer-left p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-right {
+  display: flex;
+  gap: 15px;
+}
+
+.footer-icon img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.footer-icon img:hover {
+  transform: scale(1.2);
 }
