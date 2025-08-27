@@ -338,6 +338,57 @@ button:hover {
     color: #ffffff;
 }
 
+.info-text a {
+    color: #ff6666;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contact-form label {
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: #2a2a2a;
+    color: #fff;
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border: 2px solid #ff6666;
+}
+
+.contact-form button {
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 12px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.contact-form button:hover {
+    background-color: #990909;
+}
+
+
 .site-footer {
   background-color: #0e0e0e;
   color: #fff;
@@ -366,3 +417,4 @@ button:hover {
 .footer-icon img:hover {
   transform: scale(1.2);
 }
+
