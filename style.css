@@ -50,29 +50,6 @@ button:hover {
     background-color: #990909;
 }
 
-#home-page {
-    margin: 100px 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-page {
-    flex: 1;
-    margin: 0;
-}
-
-.page-section {
-    padding: 50px 25px;
-}
-
-#resume-page,
-#gallery-page {
-    padding: 50px 25px;
-}
-
 .nav-header {
     position: fixed;
     top: 0;
@@ -94,14 +71,6 @@ button:hover {
     margin: 0;
 }
 
-.profile-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 0px;
-}
-
 .home-btn {
     background-color: #ff6666;
     color: #fff;
@@ -118,8 +87,30 @@ button:hover {
     background-color: #923c3c;
 }
 
+.section-page {
+    flex: 1;
+    margin: 0;
+}
+
+.page-section {
+    padding: 50px 25px;
+}
+
+#home-page {
+    margin: 100px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#resume-page,
+#gallery-page {
+    padding: 50px 25px;
+}
+
 .page-title {
-    margin-bottom: 25px;
     margin-bottom: 0px;
 }
 
@@ -149,7 +140,13 @@ button:hover {
     text-align: center;
 }
 
-
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 0px;
+}
 
 .image-list {
     display: flex;
@@ -157,10 +154,6 @@ button:hover {
     justify-content: center;
     margin: 10px;
     gap: 10px;
-}
-
-#download-button {
-    font-size: 24px;
 }
 
 .resume-image {
@@ -207,14 +200,14 @@ button:hover {
 .info-text h3 {
     font-size: 32px;
     margin: 0 0 5px 0;
-    color: #ff6666; 
+    color: #ff6666;
 }
 
 .info-text h4 {
     font-size: 20px;
     font-weight: normal;
     margin: 0 0 15px 0;
-    color: #3f3f3f; 
+    color: #3f3f3f;
 }
 
 .info-text h5 {
@@ -240,37 +233,41 @@ button:hover {
     color: #000000;
 }
 
+.info-text a {
+    color: #ff6666;
+}
+
 .skills-table {
-  width: 80%;
-  border-collapse: collapse;
-  margin: 30px 0;
-  font-size: 16px;
-  min-width: 150px;
-  background-color: #2a2a2a;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    width: 80%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    font-size: 16px;
+    min-width: 150px;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
 .skills-table thead {
-  background-color: #ff6666;
-  color: #fff;
-  text-align: left;
-  font-weight: bold;
+    background-color: #ff6666;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
 }
 
-.skills-table th, 
+.skills-table th,
 .skills-table td {
-  padding: 12px 16px;
-  border-bottom: 1px solid #3a3a3a;
+    padding: 12px 16px;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .skills-table tr:last-child td {
-  border-bottom: none;
+    border-bottom: none;
 }
 
 .skills-table tbody tr:nth-child(even) {
-  background-color: #242424;
+    background-color: #242424;
 }
 
 #company-container {
@@ -328,7 +325,7 @@ button:hover {
 .home-list li {
     font-size: 28px;
     display: inline-block;
-    margin:20px 30px;
+    margin: 20px 30px;
     align-items: center;
 }
 
@@ -339,10 +336,6 @@ button:hover {
 #second-section .info-text p,
 #second-section .info-text li {
     color: #ffffff;
-}
-
-.info-text a {
-    color: #ff6666;
 }
 
 .contact-form {
@@ -391,33 +384,31 @@ button:hover {
     background-color: #990909;
 }
 
-
 .site-footer {
-  background-color: #0e0e0e;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
+    background-color: #0e0e0e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
 }
 
 .footer-left p {
-  margin: 0;
-  font-size: 14px;
+    margin: 0;
+    font-size: 14px;
 }
 
 .footer-right {
-  display: flex;
-  gap: 15px;
+    display: flex;
+    gap: 15px;
 }
 
 .footer-icon img {
-  width: 24px;
-  height: 24px;
-  transition: transform 0.2s ease;
+    width: 24px;
+    height: 24px;
+    transition: transform 0.2s ease;
 }
 
 .footer-icon img:hover {
-  transform: scale(1.2);
+    transform: scale(1.2);
 }
-
