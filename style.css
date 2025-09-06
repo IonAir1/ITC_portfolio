@@ -69,6 +69,7 @@ button:hover {
     font-size: 32px;
     color: #ffffff;
     margin: 0;
+
 }
 
 .home-btn {
@@ -154,6 +155,7 @@ button:hover {
     justify-content: center;
     margin: 10px;
     gap: 10px;
+    padding: 0;
 }
 
 .resume-image {
@@ -474,11 +476,12 @@ h5.info-title {
 
     .nav-header {
         padding: 10px 20px;
+        /* margin-bottom: 10px; */
     }
 
     .nav-title {
         font-size: 24px;
-        margin-bottom: 10px;
+
     }
 
     .home-btn {
@@ -556,4 +559,11 @@ h5.info-title {
         padding: 0;
     }
 
+    .contact-list li {
+        text-indent: 0;
+    }
+
+    .icon {
+        margin-right: 10px;
+    }
 }
